@@ -61,26 +61,26 @@ function Sobre() {
         <Titulo titulo='Sobre' />
 
         <div className='container-sobre'>
-          <div style={{maxWidth: '190px', maxHeight: '280px'}}>
+          <div className='container-sobre-img'>
             <img src={fotoSobre} alt="" />
           </div>
-          <div className='container-sobre-conteudo'>
-            <p>Olá eu sou o <span style={{fontSize: '20px', fontWeight: 'bold', fontFamily: 'Permanent Marker'}}>Igor Bitencourt</span>!</p>
-            <p>Graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Internacional (UNINTER) em Março de 2022.</p>
-            <p>Com sólidos conhecimentos em Desenvolvimento Web e Mobile, apaixonado por tecnologia e em constante aprendizado, com a especialidade em Front-End e começando a focar também em Back-End para me tornar um Desenvolvedor Full-Stack.</p>
-            <div className='container-habilidades'>
-              <h3 style={{fontSize: '18px', fontWeight: 'bold', fontFamily: 'Permanent Marker'}}>Habilidades:</h3>
-              <div style={{display: 'flex', gap: '32px'}}>
-                {habilidadesList.map(item => (
-                  <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                    <div style={{width: '40px', height: '40px'}}><img src={item.logo} alt="" /></div>
-                    <p style={{fontSize: '12px'}}>{item.nome}</p>
-                  </div>
-                ))}
-              </div>
-              
+            <div className='container-sobre-conteudo'>
+              <p>Olá eu sou o <span className='container-sobre-conteudo-span'>Igor Bitencourt</span>!</p>
+              <p>Graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Internacional (UNINTER) em Março de 2022.</p>
+              <p>Com sólidos conhecimentos em Desenvolvimento Web e Mobile, apaixonado por tecnologia e em constante aprendizado, com a especialidade em Front-End e começando a focar também em Back-End para me tornar um Desenvolvedor Full-Stack.</p>
+              <div className='container-habilidades'>
+                <h3>Habilidades:</h3>
+                <div className='container-habilidades-map'>
+                  {habilidadesList.map(item => (
+                    <div className='container-habilidades-map-container'>
+                      <div className='container-habilidades-map-div'><img src={item.logo} alt="" /></div>
+                      <p className='container-habilidades-map-p'>{item.nome}</p>
+                    </div>
+                  ))}
+                </div>
             </div>
           </div>
+          
 
           
 

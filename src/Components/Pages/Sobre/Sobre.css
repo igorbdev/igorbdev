@@ -1,16 +1,58 @@
 .container-sobre {
     display: flex;
-    max-width: calc(100vw - 400px);
+    max-width: calc(100vw - 100px);
     margin-left: 32px;
     gap: 58px;
     align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.container-sobre-img {
+    max-width: 290px;
+    max-height: 380px;
+}
+
+.container-sobre-conteudo {
+    max-width: 1000px;
 }
 
 .container-sobre-conteudo p {
-    font-family: 'Arima Madurai';
-    font-size: '18px';
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+}
+
+.container-sobre-conteudo-span {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .container-habilidades {
-    
+    margin-top: 64px;
+}
+
+.container-habilidades h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.container-habilidades-map {
+    display: flex;
+    gap: 32px;
+}
+
+.container-habilidades-map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-habilidades-map-div {
+    width: 40px;
+    height: 40px;
+}
+
+.container-habilidades-map-p {
+    font-size: 12px;
 }
