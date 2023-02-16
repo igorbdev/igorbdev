@@ -1,0 +1,22 @@
+.tituloTexto {
+    font-size: 4rem;
+    font-family: 'Permanent Marker', cursive;
+    color: #202020;
+    position: relative;
+    display: inline-block;
+    margin-left: 150px;
+    background: #F4F4F4;
+    z-index: 10;
+}
+
+.titulo h1::before {
+    content: "";
+    display: block;
+    width: calc(100vw - 400px);
+    height: 8px;
+    background-color: #202020;
+    position: absolute;
+    left: -7rem;
+    top: 2rem;
+}
+

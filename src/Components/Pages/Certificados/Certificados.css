@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide-shadow {
+    visibility: hidden;
+}
+
+.container-slide img {
+    width: 700px;
+}

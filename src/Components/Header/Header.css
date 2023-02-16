@@ -1,0 +1,68 @@
+body {
+  background-color: #F4F4F4;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+}
+
+.navegacao {
+  background-color: #202020;
+  width: 250px;
+  height: 100vh;
+}
+
+.fotoNome {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fotoNome img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.fotoNome h1 {
+  font-size: 1.5rem;
+  font-family: 'Permanent Marker', cursive;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 0;
+  
+}
+
+.fotoNome h2 {
+  font-size: 1rem;
+  font-family: 'Arima Madurai', cursive;
+  color: #E6E327;
+  text-align: center;
+}
+
+.paginas {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 48px;
+}
+
+.paginas a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin-top: 12px;
+  text-decoration: none;
+  color: #AEAEAE;
+  cursor: pointer;
+}
+
+.paginas a:hover, .paginas a.active{
+  color: #E6E327;
+}
+
+.qrcode {
+  width: 150px;
+  height: 150px;
+  margin: 64px auto;
+}

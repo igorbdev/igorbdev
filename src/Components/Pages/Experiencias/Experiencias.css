@@ -1,0 +1,41 @@
+.container-Edesoft {
+    margin-left: 32px;
+    display: flex;
+    max-width: calc(100vw - 400px);
+    align-items: center;
+    gap: 32px;
+}
+
+.edesoft-img {
+    width: 300px;
+    margin: 0;
+}
+
+.edesoft-titulo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.empirica {
+    display: flex;
+    align-items: center;
+}
+
+.edesoft-empirica {
+    width: 150px;
+    margin-right: 32px;
+
+}
+
+.enablers {
+    display: flex;
+    align-items: center;
+}
+
+.edesoft-enablers {
+    width: 90px;
+    margin-right: 40px;
+}
+p {
+  font-family: 'Arima Madurai', cursive;
+}

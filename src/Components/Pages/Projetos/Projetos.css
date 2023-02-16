@@ -1,0 +1,40 @@
+.projeto{
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    height: 70vh;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.nomeA {
+    text-decoration: none;
+    color: #202020;
+}
+
+.nomeA:hover {
+    color: #007aff;
+}
+
+.nome {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.descricao {
+    font-family: 'Arima Madurai', cursive;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    padding: 2px;
+}

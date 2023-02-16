@@ -1,0 +1,16 @@
+.container-sobre {
+    display: flex;
+    max-width: calc(100vw - 400px);
+    margin-left: 32px;
+    gap: 58px;
+    align-items: center;
+}
+
+.container-sobre-conteudo p {
+    font-family: 'Arima Madurai';
+    font-size: '18px';
+}
+
+.container-habilidades {
+    
+}
