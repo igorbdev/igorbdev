@@ -15,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Sobre />} />
+          <Route path='/igorbdev' element={<Sobre />} />
           <Route path='/Projetos' element={<Projetos />} />
           <Route path='/Certificados' element={<Certificados />} />
           <Route path='/Experiencias' element={<Experiencias />} />
