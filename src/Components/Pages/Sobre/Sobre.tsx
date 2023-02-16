@@ -66,7 +66,7 @@ function Sobre() {
           </div>
           <div className='container-sobre-conteudo'>
             <p>Olá eu sou o <span style={{fontSize: '20px', fontWeight: 'bold', fontFamily: 'Permanent Marker'}}>Igor Bitencourt</span>!</p>
-            <p>Graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Internacional (UNINTER) em março de 2022.</p>
+            <p>Graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Internacional (UNINTER) em Março de 2022.</p>
             <p>Com sólidos conhecimentos em Desenvolvimento Web e Mobile, apaixonado por tecnologia e em constante aprendizado, com a especialidade em Front-End e começando a focar também em Back-End para me tornar um Desenvolvedor Full-Stack.</p>
             <div className='container-habilidades'>
               <h3 style={{fontSize: '18px', fontWeight: 'bold', fontFamily: 'Permanent Marker'}}>Habilidades:</h3>
