@@ -15,7 +15,7 @@ function Home() {
           <h2>Desenvolvedor Front-End</h2>
         </div>
         <div className='paginas'>
-          <NavLink to='/' >Sobre</NavLink>
+          <NavLink to='/igorbdev' >Sobre</NavLink>
           <NavLink to='/Projetos' >Projetos</NavLink>
           <NavLink to='/Certificados' >Certificados</NavLink>
           <NavLink to='/Experiencias' >Experiências</NavLink>
