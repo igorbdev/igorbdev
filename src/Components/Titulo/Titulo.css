@@ -20,3 +20,14 @@
     top: -10px;
     left: 80px;
   }
+
+  @media screen and (prefers-color-scheme: dark) {
+    .linhaComTexto > span {
+      color: #F3F5F6;
+    background-color: #2d3239;
+    }
+    .linhaComTexto {
+      border-bottom: 4px solid #F3F5F6;
+    }
+
+  }

@@ -2,9 +2,23 @@ import './Header.css'
 import foto from '../../assets/foto.png'
 import { Link, NavLink } from 'react-router-dom'
 import qrCode from '../../assets/qrCode.png'
+import { useEffect, useState } from 'react';
 
 
 function Home() {
+  const [theme, setTheme] = useState('light');
+
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+      }
+    };
+
+    useEffect(() => {
+      document.body.className = theme;
+      }, [theme])
 
   return (
     <div className="App">
@@ -24,6 +38,7 @@ function Home() {
         <div className='qrcode'>
           <img src={qrCode} alt="" />
         </div>
+
       </div>
     </div>
   )

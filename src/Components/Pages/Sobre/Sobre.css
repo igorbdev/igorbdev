@@ -56,3 +56,15 @@
 .container-habilidades-map-p {
     font-size: 12px;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+      background: #2d3239;
+      color: #F4F4F4;
+    }
+  
+    h1 {
+      color: #F4F4F4;
+      background: #2d3239;
+    }
+  }

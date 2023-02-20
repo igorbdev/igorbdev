@@ -10,6 +10,7 @@ import logocss from '../../../assets/css-3.svg'
 import giticon from '../../../assets/git-icon.svg'
 import scrum from '../../../assets/scrum.svg'
 import wordpress from '../../../assets/wordpress.svg'
+import python from '../../../assets/python.svg'
 
 function Sobre() {
   const habilidadesList = [
@@ -32,6 +33,10 @@ function Sobre() {
     {
       logo: javascript,
       nome: 'Javascript'
+    },
+    {
+      logo: python,
+      nome: 'Python'
     },
     {
       logo: logohtml,

@@ -7,6 +7,8 @@ import CReact from '../../../assets/CReact.png'
 import Redux from '../../../assets/Redux.png'
 import UIDesign from '../../../assets/UIDesign.png'
 import WebDesign from '../../../assets/WebDesign.png'
+import pythonB from '../../../assets/pythonB.png'
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, EffectCards} from "swiper";
@@ -30,6 +32,7 @@ function Certificados() {
         >
           <div>
           <SwiperSlide className="container-slide"><img src={CReact} alt="" /></SwiperSlide>
+          <SwiperSlide className="container-slide"><img src={pythonB} alt="" /></SwiperSlide>
           <SwiperSlide className="container-slide"><img src={Redux} alt="" /></SwiperSlide>
           <SwiperSlide className="container-slide"><img src={Javascript} alt="" /></SwiperSlide>
           <SwiperSlide className="container-slide"><img src={CSSAvancado} alt="" /></SwiperSlide>
