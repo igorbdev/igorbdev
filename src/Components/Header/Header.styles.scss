@@ -1,0 +1,65 @@
+.Header {
+    width: 100vw;
+    height: 80px;
+    background-color: #111;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+
+    .container {
+        max-width: 1200px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .menu {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .menu p {
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: #ccc;
+        font-family: 'Heebo', sans-serif;
+    }
+
+    .menu:hover p {
+        color: #78f701;
+    }
+
+    .hamburguer  {
+        content: '';
+        width: 50px;
+        border-top: 1px solid #ccc;
+    }
+
+    .menu:hover div {
+        border-color: #78f701;
+    }
+
+    .menu:hover div::after, .menu:hover div::before {
+        background: #78f701;
+    }
+
+    .hamburguer::after, .hamburguer::before {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 1px;
+        background: #ccc;
+        margin-top: 5px;
+    }
+}

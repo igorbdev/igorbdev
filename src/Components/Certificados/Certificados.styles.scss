@@ -1,0 +1,88 @@
+.Certificados {
+    background-color: #111;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .container-title-sub {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 36px;
+        font-family: 'Permanent Marker', cursive;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .line {
+        width: 140px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 36px;
+    }
+
+    
+
+    .container-certificados {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .imagens {
+        max-width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagens img {
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    .imagens img:hover {
+        border-color: #78f701;
+        box-shadow: 0 0 15px #78f701;
+    }
+
+    .imagens p {
+        font-size: 1rem;
+        font-family: 'Nunito', sans-serif;
+        color: #fff;
+    }
+
+    .modal {
+        width: 75%;
+        height: 75%;
+    }
+
+    .modal-imagem {
+        width: 80%;
+        height: 80%;
+    }
+
+    .fechar {
+        color: #ccc;
+        font-family: 'Heebo', sans-serif;
+    }
+}
+
+.Certificado-fechar:hover {
+    cursor: pointer;
+}
