@@ -12,6 +12,9 @@ import imgAppVendas from '../../assets/imgProjects/AppVendas.png'
 import imgEnablers from '../../assets/imgProjects/Enablers.png'
 import imgEmpirica from '../../assets/imgProjects/Empirica.png'
 import imgDogs from '../../assets/imgProjects/Dogs.png'
+import imgMiniDogs from '../../assets/imgProjects/MiniDogs.png'
+import imgAnimaisFantasticos from '../../assets/imgProjects/AnimaisFantasticos.png'
+
 import SvgLink from '../../assets/SVGS/SvgLink';
 
 const customStyles = {
@@ -99,6 +102,20 @@ const Projetos = () => {
       descProj: 'Projeto do curso de React',
       sobreProj: 'Projeto desenvolvido no curso de React utilizando React com JavaScript, React Router, useContext, PropTypes, Componentes Funcionais, Hooks, entre outros.',
       link: 'https://igorbdev.github.io/dogs/'
+    },
+    {
+      nomeProj: 'Mini Dogs - Gerenciamento de Usuarios Dogs',
+      imgProj: imgMiniDogs,
+      descProj: 'Projeto do curso de Redux',
+      sobreProj: 'Projeto desenvolvido no curso de Redux utilizando React com JavaScript e Redux, Store, Dispath, Hooks, Actions entre outros.',
+      link: 'https://igorbdev.github.io/redux/'
+    },
+    {
+      nomeProj: 'Animais Fantásticos',
+      imgProj: imgAnimaisFantasticos,
+      descProj: 'Projeto do curso de JavaScript',
+      sobreProj: 'Projeto desenvolvido no curso de JavaScript, do básico ao avançado, com Git, Fetch, Promises, Objetos, Arrays, Babel, entre outros.',
+      link: 'https://igorbdev.github.io/animais-fantasticos/'
     }
   ]
 
@@ -125,7 +142,7 @@ const Projetos = () => {
                     <div className='swapper-slide-p'>
                       <p className='swipper-slide-name'>{item.nomeProj}</p>
                     <div className="line2" />
-                      <p className='swipper-slide-sub-name'>{item.descProj} - {item.link != '' && <a className='button-link' href="https://igorbdev.github.io/dogs/" target="_blank" rel="noopener noreferrer"><SvgLink /></a>}</p>
+                      <p className='swipper-slide-sub-name'>{item.descProj} {item.link != '' && <a className='button-link' href="https://igorbdev.github.io/dogs/" target="_blank" rel="noopener noreferrer">- <SvgLink /></a>}</p>
                       <p className='swipper-slide-info'>{item.sobreProj}</p>
                     </div>
                     <div className='swapper-slide-img' onClick={() => openModal(item.imgProj)}><img src={item.imgProj} alt={item.nomeProj} /></div>
